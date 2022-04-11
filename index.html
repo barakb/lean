@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/solarized.css">
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section>
+            <h2>The goal</h2>
+            To deliver fast
+        </section>
+        <section>
+            <h2>the tools</h2>
+            Lean thinking
+        </section>
+        <section>
+            <section><h2>The 7 types of waste</h2></section>
+            <section>
+                <h2>Transportation</h2>
+                When a company is built in functional silos, every feature have to transport a chain of teams,
+                Whenever there is a bug, the feature transport again back.
+            </section>
+            <section>
+                <h2>Waiting</h2>
+                Naturally each feature is waiting for the next team to finish its current task before it peeked up
+                multiple time in its lifetime.
+            </section>
+            <section>
+                <h2>Overproduction</h2>
+                When each feature have to be processed by every team, and the productivity of the teams is not even
+                there will always
+                be overproduction.
+            </section>
+            <section>
+                <h2>Defect</h2>
+                QA is only started once all development is done, it is not part of the process,
+                tests plan are not written at design time, quality is not built as part of the process.
+            </section>
+            <section>
+                <h2>Inventory</h2>
+                Lots of features on the way, started but not delivered.
+            </section>
+            <section>
+                <h2>Motion</h2>
+                Whenever we are creating an ad hoc team we move people unnecessarily.
+            </section>
+            <section>
+                <h2>Excessive processing</h2>
+                Whenever team has its own agenda, there is a risk of feature that is not needed.
+                The question that we need to ask is: Who is the client? does it really need that.
+            </section>
+        </section>
+        <section>
+            <section><h2>What we should do</h2></section>
+            <section>
+                <h2>Build multiple cross-functional teams</h2>
+                <ul>
+                    <li>product</li>
+                    <li>QA</li>
+                    <li>dev ops</li>
+                    <li>front end</li>
+                    <li>back end</li>
+                </ul>
+            </section>
+            <section>
+                <h2>pros</h2>
+                <ul>
+                    <li>The team is accountable as a team to the features it is given.</li>
+                    <li>Many of the waste types are greatly reduce.</li>
+                    <li>It is possible to have continues improvement as a team.</li>
+                    <li>It is more fun, there is a partnership, every team member includes QA dev ops get sense of
+                        achievement when a task is done.
+                    </li>
+                    <li>Professional development</li>
+                    <li>Variance between the teams, option based development</li>
+                </ul>
+            </section>
+            <section>
+                <h2>cons</h2>
+                <ul>
+                    <li>Leading the team is harder, team leader need to know more, to ask the right questions</li>
+                    <li>Professional development</li>
+                    <li>Variance between the teams</li>
+                </ul>
+            </section>
+        </section>
+        <section>
+            <section><h2>Data team</h2></section>
+            <section>
+                <h2>Not all the cross-functional teams are equals</h2>
+                <ul>
+                    <li>elastic</li>
+                    <li>daily</li>
+                    <li>local-env</li>
+                </ul>
+            </section>
+            <section><h2>A backend team reinforced team</h2><br>
+                Independent at
+                <ul>
+                    <li>using and modifying front end components</li>
+                    <li>all of the ops productivity related tasks
+                        (includes deploying to prod, creating a new service, add permissions and local-env)</li>
+                </ul>
+            </section>
+            <section><h2>Examples</h2><br>
+                <ul>
+                    <li>All product features</li>
+                    <li><a href="https://docs.google.com/spreadsheets/d/1u5ZNfxBRvi8PwdGjlc6Y_0oC_sJYi2jEYN5ZEXhqxmU/edit?pli=1#gid=1052608156&range=119:126">This list</a> </li>
+                    <li>Session removal</li>
+                    <li>Local-env</li>
+                    <li>proper deploy mechanize</li>
+                    <li>Modern batch system (ops)</li>
+                </ul>
+            </section>
+        </section>
+    </div>
+</div>
+
+<script src="dist/reveal.js"></script>
+<script src="plugin/notes/notes.js"></script>
+<script src="plugin/markdown/markdown.js"></script>
+<script src="plugin/highlight/highlight.js"></script>
+<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
